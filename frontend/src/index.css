@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+
+html, body {
+  scroll-behavior: auto !important;  /* Disable smooth scroll on reload */
+  /* overflow-x: hidden; */
+}
+
+body.loading {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+
+/* Add this CSS to your stylesheet */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-content img {
+    margin-right: 20px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+  .light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .blue-mode {
+    background-color: #1e3a8a;
+    color: #ffffff;
+  }
+  
+  .green-mode {
+    background-color: #064e3b;
+    color: #ffffff;
+  }
+  
+  .pink-mode {
+    background-color: #9d174d;
+    color: #ffffff;
+  }
+  
