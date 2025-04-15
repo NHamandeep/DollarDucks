@@ -15,7 +15,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: ["http://localhost:5173", "https://www.dollarducks.com"],
+    origin: ["http://localhost:5173", "https://dollar-ducks.vercel.app"],
     credentials: true,
   }));
 app.use(express.json());
