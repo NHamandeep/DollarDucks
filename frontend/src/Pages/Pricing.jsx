@@ -97,7 +97,6 @@ const servicesPlans = [
 const addonsPlans = [
   {
     title: "Logo & Branding Kit",
-    price: 195,
     features: [
       "Custom Logo Design",
       "Brand Color Palette",
@@ -107,7 +106,6 @@ const addonsPlans = [
   },
   {
     title: "Holiday & Event Post",
-    price: 295,
     features: [
       "Seasonal Campaign Strategy",
       "Event-Based Promotions",
@@ -117,7 +115,6 @@ const addonsPlans = [
   },
   {
     title: "Link Building Services",
-    price: 250,
     features: [
       "High-Quality Backlinks",
       "Guest Posting Outreach",
@@ -203,7 +200,7 @@ const PlansPricing = () => {
       </div>
 
       {/* Pricing Cards */}
-      <div className="flex flex-wrap justify-center gap-6">
+      {/* <div className="flex flex-wrap justify-center gap-6">
         {(selectedTab === "software"
           ? pricingPlans[billingCycle]
           : selectedTab === "services"
@@ -243,7 +240,57 @@ const PlansPricing = () => {
             </ul>
           </div>
         ))}
-      </div>
+      </div> */}
+
+
+      {/* Pricing Cards */}
+<div className="flex flex-wrap justify-center gap-6">
+  {(selectedTab === "software"
+    ? pricingPlans[billingCycle]
+    : selectedTab === "services"
+    ? servicesPlans
+    : addonsPlans
+  ).map((plan, i) => (
+    <div
+      key={i}
+      className="p-6 bg-yellow-400 hover:bg-yellow-300 shadow-xl rounded-lg transform transition hover:scale-105 w-full md:w-80"
+    >
+      <h3 className="text-2xl font-bold text-black">{plan.title}</h3>
+      
+      {/* Price - $ symbol removed only for Exclusive Freebie */}
+      <p className="text-3xl font-bold my-4 text-black">
+        {selectedTab === "addons" ? "" : `$`}
+        {plan.price}
+      </p>
+
+      {selectedTab === "addons" ? (
+        <button
+          onClick={() => window.open("https://buymeacoffee.com/dollarducks", "_blank")}
+          className="mt-11 px-6 py-3 bg-black text-white rounded-lg w-full hover:bg-gray-900 cursor-pointer"
+        >
+          Buy me a coffee
+        </button>
+      ) : (
+        <button
+          onClick={() => handlePayment(plan)}
+          className="mt-4 px-6 py-3 bg-black text-white rounded-lg w-full hover:bg-gray-900 cursor-pointer"
+        >
+          Start Your Free Trial
+        </button>
+      )}
+
+      <ul className="mt-6 text-left space-y-3 text-black">
+        {plan.features.map((feature, index) => (
+          <li key={index} className="flex items-center space-x-3">
+            <CheckCircle className="text-green-500 min-w-[20px] min-h-[20px]" />
+            <span>{feature}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 };

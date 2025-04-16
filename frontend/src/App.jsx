@@ -7,7 +7,8 @@ import Navbar from "./Components/Navbar";
 import NewUser from "./Components/NewUser";
 import Home from "./Pages/Home";
 import NewsletterSubscription from "./Pages/NewsletterSubscription";
-import Pricing from "./Pages/Pricing";
+import Pricing from "./Pages/Cancel";
+import Success from "./Pages/Success";
 import BookaDemo from "./Components/BookaDemo";
 import Footer from "./Components/Footer";
 import WhoWeServe from "./Pages/WhoWeServe";
@@ -51,7 +52,7 @@ function App() {
   useEffect(() => {
     const chatTimer = setTimeout(() => {
       setIsChatOpen(true);
-    }, 15000);
+    }, 20000);
 
     // const couponTimer = setTimeout(() => {
     //   setShowCoupon(true);
@@ -78,6 +79,8 @@ function App() {
         <Route path="/signup/newuser" element={<NewUser />} />
         <Route path="/contact-us" element={<LeadForm />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/success" element={<Success />} />
+        <Route path="/cancel" element={<Cancel />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/bookademo" element={<BookaDemo />} />
         <Route path="/services" element={<Services />} />

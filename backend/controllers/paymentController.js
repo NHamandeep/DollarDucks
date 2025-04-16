@@ -19,8 +19,8 @@ export const createCheckoutSession = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "https://yourdomain.com/success",
-      cancel_url: "https://yourdomain.com/cancel",
+      success_url: "https://www.dollarducks.com//success",
+      cancel_url: "https://www.dollarducks.com//cancel",
     });
 
     res.status(200).json({ id: session.id });
