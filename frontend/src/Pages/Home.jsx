@@ -39,12 +39,12 @@ const Home = () => {
     <>
       {/* SEO Tags with Helmet */}
       <Helmet>
-        <title>Home Page | DollarDucks</title> {/* Page Title */}
+        <title>DollarDucks</title> {/* Page Title */}
         <meta name="description" content="Welcome to DollarDucks, your one-stop solution for digital marketing services." /> {/* Meta description */}
         <meta name="keywords" content="SEO, Digital Marketing, Web Design, Social Media Marketing, Lead Generation" /> {/* Meta Keywords */}
         
         {/* Open Graph Tags for Social Media */}
-        <meta property="og:title" content="Home Page | DollarDucks" />
+        <meta property="og:title" content="DollarDucks" />
         <meta property="og:description" content="Explore the best digital marketing services with DollarDucks and grow your business." />
         <meta property="og:image" content="https://www.dollarducks.com/assets/logo-JQ-jHGEZ.png" /> {/* Replace with a real image URL */}
         <meta property="og:url" content="https://www.dollarducks.com/" />
