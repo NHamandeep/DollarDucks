@@ -399,7 +399,7 @@ const BookaDemo = () => {
     console.log("Submitting formData:", formData);
 
     try {
-      const response = await fetch("https://dollarducks-backend-zxxg.onrender.com/api/form", {
+      const response = await fetch("https://dollarducks-backend-7n1l.onrender.com/api/form", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

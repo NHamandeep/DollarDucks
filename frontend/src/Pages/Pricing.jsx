@@ -132,7 +132,7 @@ const PlansPricing = () => {
     const stripe = await stripePromise;
   
     try {
-      const response = await fetch("https://dollarducks-backend-zxxg.onrender.com/api/payment/create-checkout-session", {
+      const response = await fetch("https://dollarducks-backend-7n1l.onrender.com/api/payment/create-checkout-session", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
