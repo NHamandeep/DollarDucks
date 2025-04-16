@@ -128,6 +128,37 @@ const PlansPricing = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");
   const [selectedTab, setSelectedTab] = useState("software");
 
+  // const handlePayment = async (plan) => {
+  //   const stripe = await stripePromise;
+  
+  //   try {
+  //     const response = await fetch("https://dollarducks-backend-7n1l.onrender.com/api/payment/create-checkout-session", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify({
+  //         title: plan.title,
+  //         price: plan.price,
+  //       }),
+  //     });
+  
+  //     const session = await response.json();
+  
+  //     const result = await stripe.redirectToCheckout({
+  //       sessionId: session.id,
+  //     });
+  
+  //     if (result.error) {
+  //       console.error(result.error.message);
+  //     }
+  //   } catch (error) {
+  //     console.error("Payment Error:", error);
+  //   }
+  // };
+  
+  
+
   const handlePayment = async (plan) => {
     const stripe = await stripePromise;
   
@@ -156,7 +187,6 @@ const PlansPricing = () => {
       console.error("Payment Error:", error);
     }
   };
-  
   
   return (
     <div className="container mx-auto p-4 md:p-6">

@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 // import CouponPopup from "./Components/CouponPopup";
 import ScrollToTop from "./Components/ ScrollToTop";
+import Pricing from "./Pages/Pricing"
 import Navbar from "./Components/Navbar";
 // import SignIn from "./Components/SignIn";
 import NewUser from "./Components/NewUser";
 import Home from "./Pages/Home";
 import NewsletterSubscription from "./Pages/NewsletterSubscription";
-import Pricing from "./Pages/Cancel";
+import Cancel from "./Pages/Cancel";
 import Success from "./Pages/Success";
 import BookaDemo from "./Components/BookaDemo";
 import Footer from "./Components/Footer";

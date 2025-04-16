@@ -372,7 +372,7 @@ const DemoForm = ({ formData, setFormData, handleSubmit, isSubmitted }) => {
             </select>
             <button
               type="submit"
-              className="w-full bg-yellow-500 text-black py-2 rounded-md hover:bg-yellow-600 transition text-sm md:text-base"
+              className="w-full bg-yellow-500 text-black py-2 rounded-md cursor-pointer hover:bg-yellow-600 transition text-sm md:text-base"
             >
               Schedule My Call
             </button>
