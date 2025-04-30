@@ -14,14 +14,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const GrowthFocusedAddOns = () => {
   const navigate = useNavigate();
-  // const images = [
-  //   "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/4050437/pexels-photo-4050437.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/7663143/pexels-photo-7663143.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  // ];
+ 
 
     const GrowthFocusedAddOns = [
       GrowthFocusedAddOns1,
@@ -145,7 +138,7 @@ const GrowthFocusedAddOns = () => {
           <p className="mt-3 text-lg text-left">
             From high-converting websites to SEO dominance and lead generation,
             he ensures that every strategy is
-            <strong>smart, data-driven, and built for profit.</strong>
+           <span><strong> smart, data-driven, and built for profit.</strong></span>
           </p>
           <p className="mt-3  text-lg text-left">
             If you’re looking to{" "}

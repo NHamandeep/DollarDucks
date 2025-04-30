@@ -65,12 +65,12 @@ const services = [
 const Services = () => {
   return (
     // py-16 bg-gray-100 w-screen px-4 sm:px-6 lg:px-12
-    <div className="container mx-auto sm:px-6 lg:px-12  px-4">
+    <div className="container mx-auto sm:px-6 lg:px-12 px-4 mb-10">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold mt-18">
           Our Digital Services to Grow Your Brand
         </h1>
-        <p className="text-lg ">
+        <p className="text-lg">
           Unlock your brand's full potential with our expert digital solutions.
         </p>
       </div>
@@ -90,5 +90,6 @@ const Services = () => {
     </div>
   );
 };
+
 
 export default Services;

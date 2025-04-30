@@ -90,7 +90,7 @@ const NeighborhoodSEO = () => {
             <strong>fly straight into their feeds and search results?</strong>{" "}
             With <strong> Meta & Google Ads, </strong> we make sure your
             business isn’t just another duck in the pond it’s the one
-            <strong>everyone notices and flocks to!</strong>
+            <span><strong> everyone notices and flocks to!</strong></span>
           </p>
           <ul className="list-disc list-inside mt-3 sm:mt-4 text-left text-base sm:text-lg space-y-2">
             <li className="mb-2">
@@ -128,7 +128,7 @@ const NeighborhoodSEO = () => {
             Duck Mia
           </h2>
           <p className="mt-2 sm:mt-3 text-base sm:text-lg text-left">
-            Mia doesn’t just put you on the map—she makes sure you{" "}
+            Mia doesn’t just put you on the map she makes sure you{" "}
             <strong>own the top spot!</strong> From{" "}
             <strong>Google Business optimization to review strategies</strong>,
             she gets you <strong>more visibility and customers.</strong>

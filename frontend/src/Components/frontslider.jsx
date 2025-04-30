@@ -2,6 +2,13 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import hvacImage from "../assets/HVAC.png"
+import SolarImage from "../assets/Solar.png"
+import RoofingImage from "../assets/Roofing.png"
+import ConstructionImage from "../assets/Construction.png"
+import PlumbingImage from "../assets/Plumbing.png"
+import HomeImage from "../assets/Home.png"
+
 const FrontSlider = () => {
   const sliderRef = useRef(null);
 
@@ -32,37 +39,37 @@ const FrontSlider = () => {
 
   const slides = [
     {
-       img: "https://images.pexels.com/photos/5463587/pexels-photo-5463587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+       img: hvacImage,
       title: "HVAC - R",
       desc: "Struggling to get HVAC leads? Digital marketing is the key!",
       longDesc: `Customers search online first when they need heating, cooling, or refrigeration services. If your business isn’t visible, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase calls, bookings, and brand trust. Don’t miss out—get your <span>HVAC-R</span> business seen and grow faster.`,
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1682145376863-70740bd7bd0a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE3fHxzb2xhcnxlbnwwfHwwfHx8MA%3D%3D",
+      img: SolarImage,
       title: "Solar & Electrical",
       desc: "Grow Your Electric & Solar Business with Digital Marketing!",
       longDesc: `Customers search online first for electrical and solar services. If your business isn’t visible, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase calls, bookings, and brand trust. Don’t miss out—get your <span>electric and solar</span> business seen and grow faster.`,
     },
     {
-      img: "https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHJvb2Zpbmd8ZW58MHx8MHx8fDA%3D",
+      img: RoofingImage,
       title: "Roofing and Remodeling",
       desc: "Get More Leads for Your Roofing & Remodeling Business!",
       longDesc: `Homeowners search online first for roofing and remodeling services. If your business isn’t showing up, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase calls, bookings, and brand trust. Don’t miss out—grow your <span>roofing and remodeling</span> business today!`,
     },
     {
-      img: "https://images.pexels.com/photos/33266/work-chinese-industrial-professional.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: ConstructionImage,
       title: "Construction & Concrete",
       desc: "Get More Leads for Your Construction & Concrete Business!",
       longDesc: `Property owners and developers search online first for construction and concrete services. If your business isn’t visible, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase visibility, get more calls, and land more projects. Don’t miss out—grow your <span>construction and concrete</span> business today!`,
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1663013668741-5d280c6b801b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHBsdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+      img: PlumbingImage,
       title: "Plumbing and Hauling",
       desc: "Get More Leads for Your Plumbing & Hauling Business!",
       longDesc: `Customers search online first for plumbing and hauling services. If your business isn’t visible, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase visibility, get more calls, and book more jobs. Don’t miss out—grow your <span>plumbing and hauling</span> business today!`,
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1661342474567-f84bb6959d9f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHBsdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+      img: HomeImage,
       title: "Home Appliance Repair",
       desc: "Get More Leads for Your Home Appliance Repair Business!",
       longDesc: `Customers search online first when they need home appliance repair services. If your business isn’t visible, you’re losing leads to competitors. With <span>SEO</span>, <span>Google My Business</span>, and <span>targeted ads</span>, you can increase visibility, get more calls, and book more repairs. Don’t miss out—grow your <span>appliance repair</span> business today!`,

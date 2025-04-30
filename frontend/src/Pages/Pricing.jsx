@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { CheckCircle } from "lucide-react";
 import { loadStripe } from "@stripe/stripe-js";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+import buy from "../assets/buy.png"
+
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
 
@@ -294,25 +297,29 @@ const PlansPricing = () => {
       </p>
 
       {selectedTab === "addons" ? (
-        <button
-          onClick={() => window.open("https://buymeacoffee.com/dollarducks", "_blank")}
-          className="mt-11 px-6 py-3 bg-black text-white rounded-lg w-full hover:bg-gray-900 cursor-pointer"
-        >
-          Buy me a coffee
-        </button>
-      ) : (
+  <button
+    onClick={() => window.open("https://buymeacoffee.com/dollarducks/membership", "_blank")}
+    className="mt-11 px-6 py-3 bg-white rounded-lg w-full cursor-pointer flex justify-center items-center"
+  >
+    <img
+      src={buy} // image path yahin sahi hona chahiye
+      alt="Buy me a coffee"
+      className="h-8 w-auto max-w-full"
+    />
+  </button>
+): (
         <button
           onClick={() => handlePayment(plan)}
-          className="mt-4 px-6 py-3 bg-black text-white rounded-lg w-full hover:bg-gray-900 cursor-pointer"
+           className="mt-4 px-6 py-3 bg-black text-white rounded-lg w-full hover:bg-gray-900 cursor-pointer"
         >
-          Start Your Free Trial
+          Get Started
         </button>
       )}
 
       <ul className="mt-6 text-left space-y-3 text-black">
         {plan.features.map((feature, index) => (
           <li key={index} className="flex items-center space-x-3">
-            <CheckCircle className="text-green-500 min-w-[20px] min-h-[20px]" />
+            <IoIosArrowDroprightCircle className="text-black min-w-[20px] min-h-[20px]" />
             <span>{feature}</span>
           </li>
         ))}

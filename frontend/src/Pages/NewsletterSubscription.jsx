@@ -62,7 +62,7 @@ const NewsletterSubscription = () => {
         
 {message && <p className="text-sm text-green-600 mt-2">{message}</p>}
         <p className="text-xs mt-1 flex items-center">
-          <span className="text-sm">🔒</span> We respect your privacy. 
+          <span className="text-sm">🔒</span> We respect your privacy.
           {/* <a href="/privacy-policy" className="underline ml-1">Privacy Policy</a>  */}
         </p>
       </div>
@@ -74,9 +74,11 @@ const NewsletterSubscription = () => {
         rel="noopener noreferrer"
         className="md:w-2/5 flex flex-col items-center md:ml-4 mt-3 md:mt-0 cursor-pointer"
       >
-        <div className="bg-yellow-500 p-3 rounded-lg text-black text-center font-bold text-sm border border-black w-full">
-          THE LOCAL PACK <br />
-          <span className="text-xs font-normal">Join 5,000+ marketers</span>
+        <div className="bg-black p-3 rounded-lg text-white text-center font-bold text-sm border border-black w-full">
+          Click to Join
+          <br />
+          <span className="text-xs font-bold">5,000+ <br /></span>
+          <span className="text-xs font-bold">Bussiness Owners</span>
         </div>
       </a>
     </div>

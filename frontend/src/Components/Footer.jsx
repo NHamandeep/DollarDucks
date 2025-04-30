@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaYoutube,
+  FaGithub,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -56,32 +57,14 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex space-x-4 mt-6">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-600 transition-colors duration-200"
-                aria-label="Facebook"
-              >
-                <FaFacebookF size={18} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-600 transition-colors duration-200"
-                aria-label="Twitter"
-              >
-                <FaTwitter size={18} />
-              </a>
-              <a
-                href="https://linkedin.com"
+            <a
+                href="https://github.com/DollarDucks"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-600 transition-colors duration-200"
                 aria-label="LinkedIn"
               >
-                <FaYoutube size={18} />
+                <FaGithub size={18} />
               </a>
               <a
                 href="https://www.instagram.com/dollar_ducks/"
@@ -92,6 +75,24 @@ const Footer = () => {
               >
                 <FaInstagram size={18} />
               </a>
+              <a
+                href="https://www.linkedin.com/in/dollar-ducks-8b2b6429b/?originalSubdomain=in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-yellow-600 transition-colors duration-200"
+                aria-label="Facebook"
+              >
+                <FaLinkedinIn size={18} />
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-yellow-600 transition-colors duration-200"
+                aria-label="Twitter"
+              >
+                <FaTwitter size={18} />
+              </a>
             </div>
           </div>
 
@@ -100,14 +101,14 @@ const Footer = () => {
             <div>
             <p className=" text-lg mb-4"><strong>Address (United States)</strong> </p>
               <address className="not-italic mt-2">
-                YPCA LLC
+                131 Continental Dr., Ste. #305
                 <br /> Newark, Delaware 19713
                 <br /> Tel:{" "}
                 <a
                   href="tel:+18186578233"
                   className="text-blue-500 hover:underline"
                 >
-                  (818)-657-8233
+                 (+1) 818-657-8233
                 </a>
               </address>
             </div>
@@ -115,15 +116,15 @@ const Footer = () => {
             <div>
             <p className=" text-lg mb-4"><strong>Address (India)</strong> </p>
               <address className="not-italic mt-2 ">
-                163, 4th Floor, Next 57 Coworking
-                <br /> JLPL Industrial Area, Sector - 82
-                <br /> Mohali
+              Next 57 Coworking <br /> 163, 4th Floor, 
+                 JLPL Industrial Area,<br /> Sector - 82
+                 Mohali
                 <br /> Tel:{" "}
                 <a
                   href="tel:+916280236080"
                   className="text-blue-500 hover:underline"
                 >
-                  (+91) 6280236080
+                  (+91) 628-023-6080
                 </a>
               </address>
             </div>

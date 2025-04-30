@@ -15,14 +15,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SEOPowerPlay = () => {
   const navigate = useNavigate();
-  // const images = [
-  //   "https://cdn.dribbble.com/userupload/42691293/file/original-78a8aba0355268d0106dff372e758bdc.jpg?resize=2048x1536&vertical=center",
-  //   "https://cdn.dribbble.com/userupload/42695130/file/original-a657ef0e75f3b25a7c1b754f6804420d.jpg?resize=2048x1536&vertical=center",
-  //   "https://cdn.dribbble.com/userupload/42684064/file/original-e4ed60fd2a30b71288dc565a0e9094e8.png?resize=2048x1536&vertical=center",
-  //   "https://cdn.dribbble.com/userupload/42695470/file/original-2574b24b3666de7204fb052805e4c49e.jpeg?resize=2048x1536&vertical=center",
-  //   "https://cdn.dribbble.com/userupload/42684379/file/original-9ef679254fcfeb9db986b22d7517262f.png?resize=2048x1479&vertical=center",
-  //   "https://cdn.dribbble.com/userupload/42672789/file/original-4d6b2912ab771a1a141cbd7fb3ff06b9.jpg?resize=2048x1536&vertical=center",
-  // ];
 
   const prolevelwebsite = [
     ProLevelWebsite1,
@@ -112,7 +104,7 @@ const SEOPowerPlay = () => {
           </p>
           <ul className="list-disc list-inside mt-3 sm:mt-4 text-left text-base sm:text-lg space-y-2">
             <li className="mb-2">
-              <strong>Higher Google Rankings </strong> <br /> Be the first
+              <strong>Higher Google Rankings</strong> <br /> Be the first
               business customers find!
             </li>
             <li className="mb-2">
@@ -147,7 +139,7 @@ const SEOPowerPlay = () => {
             <strong>
               Jason would be the pit crew, engineer, and driver all in one!
             </strong>
-            With <strong>8+ years of experience</strong>, he builds
+            <span> With </span><strong>8+ years of experience</strong>, he builds
             <strong> fast, high-converting</strong> websites that actually work
             for your business.
           </p>

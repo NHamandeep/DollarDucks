@@ -130,7 +130,7 @@ const MetaGoogleAds = () => {
           <p className="mt-2 sm:mt-3 text-base sm:text-lg text-left">
             Olivia <strong> turns ad clicks into cash</strong> ! With{" "}
             <strong>$2M+ in ad spend managed</strong> , she knows how to get
-            your business <strong>seen, clicked, and chosen</strong> —without
+            your business <strong>seen, clicked, and chosen</strong> without
             wasting a dime.
           </p>
           <div className="mt-6 sm:mt-8">

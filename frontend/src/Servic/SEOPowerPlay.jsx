@@ -86,7 +86,7 @@ const SEOPowerPlay = () => {
         <div className="w-full md:w-1/2 text-center md:text-left px-2 sm:px-0">
           <p className="text-base sm:text-lg">
             If your website isn’t on page 1 of Google, it’s basically swimming
-            in the deep, dark SEO abyss. 🦆🌊 We use proven SEO strategies to
+            in the deep, dark SEO abyss.  We use proven SEO strategies to
             make sure your business gets found by the right people at the right
             time!
           </p>

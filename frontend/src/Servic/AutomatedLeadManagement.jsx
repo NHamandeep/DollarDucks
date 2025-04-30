@@ -14,14 +14,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Automatedleaads = () => {
   const navigate = useNavigate();
-  // const images = [
-  //   "https://images.pexels.com/photos/5598284/pexels-photo-5598284.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/6120214/pexels-photo-6120214.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/3782235/pexels-photo-3782235.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/8062358/pexels-photo-8062358.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/5990271/pexels-photo-5990271.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  //   "https://images.pexels.com/photos/3810753/pexels-photo-3810753.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  // ];
 
   const Automatedleaads = [
     Automatedleaads1,
@@ -134,7 +126,7 @@ const Automatedleaads = () => {
               every potential customer is tracked, nurtured, and converted
             </strong>{" "}
             so you can focus on
-            <strong>closing deals, not chasing contacts.</strong>
+            <strong><span> closing deals, not chasing contacts.</span></strong>
           </p>
           <div className="mt-6 sm:mt-8">
             <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">

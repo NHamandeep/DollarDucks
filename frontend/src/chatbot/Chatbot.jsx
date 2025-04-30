@@ -250,7 +250,7 @@ const Chatbot = ({ isOpen, toggleChat }) => {
 
   // Change language
   const toggleLanguage = () => {
-    setLanguage(language === 'english' ? 'hindi' : 'english');
+    setLanguage(language === 'english' ? 'Spanish' : 'english');
     // In a real implementation, this would trigger translation of all messages
     setMessages(prev => [
       ...prev,

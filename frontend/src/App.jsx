@@ -19,9 +19,10 @@ import LeadForm from "./chatbot/LeadForm";
 import SmallBusinesses from "./WhoWeServe/SmallBusinesses";
 import ProfessionalBusinesses from "./WhoWeServe/ProfessionalBusinesses";
 import News from "./LearningHub/News"
+import Ai from "./LearningHub/Ai";
+import Merchandise from "./LearningHub/merchandise";
 import Podcast from "./LearningHub/Podcast";
 import DollarDucksAcademy from "./LearningHub/DollarDucksAcademy";
-
 import Academy from "./LearningHub/Academy";
 import FrontSlider from "./Components/frontslider";
 import TermsAndConditions from "./Pages/TermsAndConditions";
@@ -96,9 +97,11 @@ function App() {
         />
         <Route path="/news" element={<News />} />
         <Route path="/podcast" element={<Podcast />} />
+        <Route path="/ai" element={<Ai />} />
+        <Route path="/merchandise" element={<Merchandise />} />
         <Route path="/DollarDucks-academy" element={<DollarDucksAcademy />} />
         <Route path="/frontslider" element={<FrontSlider />} />
-        <Route path="/academy" element={<Academy />} />
+        <Route path="/hub" element={<Academy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />
