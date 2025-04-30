@@ -259,6 +259,9 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { FaBars, FaTimes, FaStoreAlt } from "react-icons/fa";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { FaShuttleVan } from "react-icons/fa";
+import { BsShopWindow } from "react-icons/bs";
+
 import {
   FiChevronDown,
   FiChevronUp,
@@ -464,7 +467,7 @@ const Navbar = () => {
               target="_blank"
               className="bg-white text-black rounded-full p-2 hover:bg-yellow-400 transition"
             >
-              <FiDribbble size={20} />
+              <FaShuttleVan size={20} />
             </Link>
 
             <Link
@@ -472,7 +475,7 @@ const Navbar = () => {
               target="_blank"
               className="bg-white text-black rounded-full p-2 hover:bg-yellow-400 transition"
             >
-              <FiDribbble size={20} />
+              <BsShopWindow size={20} />
             </Link>
 
             <Link
@@ -564,14 +567,14 @@ const Navbar = () => {
                   target="_blank"
                   className="bg-white text-black rounded-full p-2 hover:bg-yellow-400 transition"
                 >
-                  <FiShoppingCart size={20} />
+                  <FaShuttleVan size={20} />
                 </Link>
                 <Link
                   to="https://dribbble.com"
                   target="_blank"
                   className="bg-white text-black rounded-full p-2 hover:bg-yellow-400 transition"
                 >
-                  <FiDribbble size={20} />
+                  <BsShopWindow size={20} />
                 </Link>
                 <Link
                   to="https://buymeacoffee.com"
